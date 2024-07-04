@@ -13,12 +13,12 @@ This project is a Streamlit application that analyzes images of traffic scenes t
 
 The required Python packages are listed in `requirements.txt`. These packages must be installed in the system for the successfull running of the source code file (final.ipynb and final.py).
 
-## Additional files required: (included in this repository)
+## Additional files required: 
 
 - YOLO weights file (yolov3.weights)
 - YOLO configuration file (yolov3.cfg)
 - COCO class labels file (coco.names)
-- Pre-trained car color classification model ('car_color_model_best.keras')
+- Pre-trained car color classification model ('car_color_model_best.keras') (included in this repository)
 - VCoR dataset for training the car color model (link provided below)
 
 ## Running the Application
