@@ -19,7 +19,7 @@ The required Python packages are listed in `requirements.txt`. These packages mu
 - YOLO configuration file (yolov3.cfg)
 - COCO class labels file (coco.names)
 - Pre-trained car color classification model ('car_color_model_best.keras')
-- VCoR dataset for training the car color model 
+- VCoR dataset for training the car color model (link provided below)
 
 ## Running the Application
 
@@ -63,6 +63,7 @@ The car color classification model is trained using the code provided in the VCo
 
 VCoR Dataset
 The VCoR dataset is used to train the car color classification model. This dataset is not included in the repository and must be obtained separately. The dataset includes images of cars labeled with their respective colors.
+Link for the dataset: https://www.kaggle.com/datasets/landrykezebou/vcor-vehicle-color-recognition-dataset
 
 1. Training the Car Color Model
 To understand how the car color classification model was trained, refer to the VCoR.ipynb notebook in the repository. This notebook includes the data preprocessing steps, model architecture, training process, and evaluation metrics.
